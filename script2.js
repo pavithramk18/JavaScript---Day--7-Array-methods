@@ -9,6 +9,14 @@ result.send();
 result.onload = function () {
   var output = JSON.parse(result.response);
   console.log(output);
- 
 
-}
+  output.forEach((ele)=>{
+    
+    console.log(ele.name);
+    console.log(ele.flags);
+    console.log(ele.capital);
+
+  });
+  
+
+    }
