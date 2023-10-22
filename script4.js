@@ -1,4 +1,4 @@
-//Q5:Print the countries which uses US Dollar as Cuurrecy
+//Q5:Print the countries which uses US Dollar as Currency
 
 var result = new XMLHttpRequest();
 
@@ -10,9 +10,18 @@ result.onload = function () {
   var output = JSON.parse(result.response);
   console.log(output);
 
-  var currency=output.filter((ele)=>ele.currencies);
-  console.log(currency);
+  var res=output.filter((ele)=>ele.currencies);
+  console.log(res);
+
   
 
 
+
+  
+
 }
+
+  
+
+
+
