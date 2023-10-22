@@ -12,9 +12,7 @@ result.onload = function () {
 
   var currency=output.filter((ele)=>ele.currencies);
   console.log(currency);
-  var final=currency.map((ele1)=>ele1.name=="United States dollar");
-  console.log(final);
-
+  
 
 
 }
