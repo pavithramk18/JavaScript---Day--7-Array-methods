@@ -9,5 +9,12 @@ result.send();
 result.onload = function () {
   var output = JSON.parse(result.response);
   console.log(output);
+  var totalpop=output.reduce((acc,ele)=>ele.population);
+  console.log(totalpop);
+
 
 }
+
+
+// OUTPUT:
+ //17643060
