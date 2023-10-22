@@ -1,0 +1,1 @@
+//Q3:Print the following details name,capital,flag using foreach method 

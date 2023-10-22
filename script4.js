@@ -1,0 +1,1 @@
+Q5:Print the countries which uses US Dollar as Cuurrecy
