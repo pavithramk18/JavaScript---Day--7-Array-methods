@@ -10,7 +10,7 @@ result.onload = function () {
   var output = JSON.parse(result.response);
   console.log(output);
 
-  var res=output.filter((ele)=>ele.currencies);
+  var res=output.filter((ele)=>ele.currencies=="USD");
   console.log(res);
 
   
